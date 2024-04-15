@@ -14,7 +14,7 @@ const GoogleButton = (props: Props) => {
 
     React.useEffect(() => {
         if (props.type === 'install') {
-            setStyle("bg-[#01875f] p-2 px-4 rounded-lg font-medium text-lg text-white w-fit cursor-pointer");
+            setStyle("bg-[#01875f] p-2 px-4 rounded-lg font-medium text-lg text-white w-fit cursor-pointer hover:bg-[#016644] rounded-md");
         } else if (props.type === 'share') {
             setStyle(" p-2 px-4 rounded-lg font-medium text-[#01875f] w-fit cursor-pointer hover:bg-[#F6FAFE] rounded-md");
         }

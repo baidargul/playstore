@@ -49,7 +49,7 @@ const AppHeader = (props: Props) => {
                     </div>
 
                     {/** Install Button */}
-                    <div className="flex gap-1 items-center">
+                    <div className="flex gap-3 items-center">
                         <GoogleButton caption="Install on more devices" type="install" />
                         <GoogleButton icon="/shareIcon.svg" caption="Share" type="share" />
                     </div>
