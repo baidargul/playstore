@@ -86,7 +86,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="h-[2000px] px-28 p-10">
+    <div className="min-h-[100dvh] px-28 p-10">
       <AppHeader />
       <div className="flex justify-between gap-1 mt-20">
         <div className="w-[67%]">
