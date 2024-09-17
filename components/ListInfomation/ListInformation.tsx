@@ -13,7 +13,10 @@ export type listInformationType = {
 
 const ListInformation = (props: Props) => {
   return props.list.map((item: listInformationType) => (
-    <div className="flex gap-4 items-start hover:bg-zinc-100 rounded-md px-4 py-2 -ml-4">
+    <div
+      key={item.title}
+      className="flex gap-4 items-start hover:bg-zinc-100 rounded-md px-4 py-2 -ml-4"
+    >
       <div>{item.icon}</div>
       <div className="flex flex-col ">
         <span className="font-medium">{item.title}</span>

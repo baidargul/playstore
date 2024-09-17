@@ -14,9 +14,15 @@ export type listInformationFixedType = {
 
 const ListInformationFixed = (props: Props) => {
   return props.list.map((item: listInformationFixedType) => (
-    <div className="flex gap-4 items-center hover:bg-zinc-100 rounded-md px-4 py-2 -ml-4">
+    <div
+      key={item.title}
+      className="flex gap-4 items-center hover:bg-zinc-100 rounded-md px-4 py-2 -ml-4"
+    >
       <div>
-        <img src={`/Apps/${item.icon}.webp`} className="rounded-xl w-13 h-13" />
+        <img
+          src={`/Apps/${item.icon}.webp`}
+          className="rounded-xl w-13 h-13 drop-shadow-[0_1px_1px_#2b2a2a8a]"
+        />
       </div>
       <div className="flex flex-col ">
         <span className="font-medium">{item.title}</span>
