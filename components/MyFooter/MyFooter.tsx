@@ -14,12 +14,10 @@ const MyFooter = (props: Props) => {
     >
       <div className="flex justify-between items-center">
         <div>
-          <div className="text-lg">
-            This is for demonstration purposes only.
-          </div>
+          <div className="text-lg">For demonstration purposes only.</div>
           <div className="font-normal">
-            It is not a real app. Neither it is responsive, It is just a demo to
-            preview{" "}
+            This is not a real app. Neither it is responsive, It is just a demo
+            to preview{" "}
             <span className="group-hover:border-b-[#01875f]/40 border-b-2 border-transparent group-hover:text-[#01875f] group-hover:px-0 group-hover:p-1 transition-all duration-700">
               my frontend skills.
             </span>
